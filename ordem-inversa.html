@@ -1,12 +1,13 @@
 <html>
     <script>
         //acabate e vai retornar etabaca
-
+        //com for
         function ordemInversa(palavra){
-            for(var i = 0; i < palavra.length; i++){
+            var palavraInvertida = "";
+            for(var i = palavra.length  -1; i >= 0; i--){
                 palavraInvertida = palavraInvertida + palavra[i];
             }
-            
+            return palavraInvertida;
         }
     </script>
 </html>
